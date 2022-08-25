@@ -1,0 +1,16 @@
+AEMET posee un portal de datos abiertos. Esta es su url: http://www.aemet.es/es/datos_abiertos
+Cogiendo el link del medio (OpenData), accedeis a esta url: http://www.aemet.es/es/datos_abiertos/AEMET_OpenData
+Esto nos lleva a esta url desde donde podeis obtener una API key.
+Esta es la pagina del swagger de AEMET: https://opendata.aemet.es/dist/index.html?#/predicciones-especificas
+
+Una vez llegados aquí:
+
+1.- Obtener la predicción diaria para los próximos 7 días del municipio que querais.
+2.- Con los datos recuperados generar un dashboard donde se visualice con un gauge la probabilidad de lluvia para cada uno de los próximos 7 días.
+3.- Recuperarme el listado de estaciones que existen en toda España.
+4.- ¿Cuantas estaciones hay en Andalucia?, ¿Castilla la Mancha?, ¿y en la Comunidad Valenciana?
+5.- Proporcionar un endpoint para poder recuperar esta información
+6.- Indicar cuantas estaciones existen por provincia??
+7.- Existe mas de una estación con el mismo nombre?
+8.- Pintar en un mapa todas las estaciones que hay
+
